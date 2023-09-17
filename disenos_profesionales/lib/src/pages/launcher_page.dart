@@ -20,7 +20,10 @@ class LauncherPage extends StatelessWidget {
         backgroundColor: appTheme.primaryColor,
       ),
       drawer: _MenuPrincipal(),
-      body: _ListaOpciones()
+      body: Padding(
+        padding: const EdgeInsets.only(top: 8),
+        child: _ListaOpciones(),
+      )
    );
   }
 }

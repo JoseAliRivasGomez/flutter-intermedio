@@ -34,23 +34,23 @@ class GraficasCircularesPageState extends State<GraficasCircularesPage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          
+          const Spacer(flex: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              CustomRadialProgress(porcentaje: porcentaje, color: Colors.blue ),
-              CustomRadialProgress(porcentaje: porcentaje * 1.2, color: Colors.red )
+              CustomRadialProgress(porcentaje: porcentaje, color: Colors.yellow ),
+              CustomRadialProgress(porcentaje: porcentaje * 1.2, color: Colors.lightBlue )
             ],
           ),
-
+          const Spacer(flex: 1,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              CustomRadialProgress(porcentaje: porcentaje * 1.4, color: Colors.green ),
-              CustomRadialProgress(porcentaje: porcentaje * 1.6, color: Colors.purple )
+              CustomRadialProgress(porcentaje: porcentaje * 1.4, color: Colors.lightGreen ),
+              CustomRadialProgress(porcentaje: porcentaje * 1.6, color: Colors.orange )
             ],
-          )
-
+          ),
+          const Spacer(flex: 10,),
         ],
       )
     );
@@ -81,8 +81,8 @@ class CustomRadialProgress extends StatelessWidget {
         porcentaje: porcentaje,
         colorPrimario: color,
         colorSecundario: appTheme.textTheme.bodyLarge!.color!,
-        grosorPrimario: 10,
-        grosorSecundario: 4,
+        grosorPrimario: 15,
+        grosorSecundario: 20,
       ),
       // child: Text('$porcentaje %', style: TextStyle(fontSize: 50.0) ),
     );

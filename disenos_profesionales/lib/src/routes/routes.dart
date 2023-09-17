@@ -16,7 +16,7 @@ final pageRoutes = <_Route>[
   _Route( FontAwesomeIcons.slideshare , 'Slideshow',  const SlideshowPage() ),
   _Route( FontAwesomeIcons.truckMedical , 'Emergencia',  const EmergencyPage() ),
   _Route( FontAwesomeIcons.heading , 'Encabezados',  const HeadersPage() ),
-  _Route( FontAwesomeIcons.turnUp , 'Animaciones', const AnimacionesPage() ),
+  _Route( FontAwesomeIcons.circleRadiation , 'Animaciones', const AnimacionesPage() ),
   _Route( FontAwesomeIcons.peopleCarryBox , 'Cuadro Animado', const CuadradoAnimadoPage() ),
   _Route( FontAwesomeIcons.circleNotch , 'Barra Progreso', const GraficasCircularesPage() ),
   _Route( FontAwesomeIcons.pinterest , 'Pinterest', const PinterestPage() ),
