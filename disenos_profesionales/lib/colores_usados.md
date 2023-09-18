@@ -1,7 +1,7 @@
 # Propiedades usadas
 
 
-* accentColor
+* primaryColor
 * primaryColorLight
 * scaffoldBackgroundColor
-* textTheme.body1.color
+* textTheme.bodyLarge.color

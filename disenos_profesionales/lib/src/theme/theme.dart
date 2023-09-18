@@ -21,7 +21,7 @@ class ThemeChanger with ChangeNotifier {
         _darkTheme   = false;
         _customTheme = false;
         _currentTheme = ThemeData.light().copyWith(
-          primaryColor: Colors.blue
+          primaryColor: Colors.cyan
         );
       break;
 
@@ -29,7 +29,7 @@ class ThemeChanger with ChangeNotifier {
         _darkTheme   = true;
         _customTheme = false;
         _currentTheme = ThemeData.dark().copyWith(
-          primaryColor: Colors.blue
+          primaryColor: Colors.cyan
         );
       break;
 
@@ -53,11 +53,11 @@ class ThemeChanger with ChangeNotifier {
 
     if ( value ) {
       _currentTheme = ThemeData.dark().copyWith(
-          primaryColor: Colors.blue
+          primaryColor: Colors.cyan
       );
     } else {
       _currentTheme = ThemeData.light().copyWith(
-          primaryColor: Colors.blue
+          primaryColor: Colors.cyan
       );
     }
 
